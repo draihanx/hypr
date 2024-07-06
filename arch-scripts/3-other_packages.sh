@@ -69,7 +69,11 @@ other_packages=(
     nvtop
     os-prober
     pacman-contrib
-    pamixer
+    pipewire
+    pipewire-pulse
+    pipewire-alsa
+    pipewire-jack
+    wireplumber
     pavucontrol
     python-pywal
     wget
