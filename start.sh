@@ -185,7 +185,6 @@ else
         ask_prompts "Would you like to install and enable ${blue}Bluetooth${end} service?" "bluetooth"
         ask_prompts "Would like to install ${yellow}Openbangla keyboard${end} and ${yellow}fcitx${end} to write in Bangla?" "write_bangla"
         ask_prompts "Would you like to enable and configure ${green}sddm${end} theme?" "sddm"
-        ask_prompts "Would like to install zsh & oh-my-zsh?\nIf no, then we will be customizing your bash with a custom themes created by ${cyan}httrps://eraihan.com${end}..." "shell"
         ask_prompts "Would you like to install and configure ${cyan}Vs-Code${end}?" "vs_code"
         ask_prompts "Do you have any ${yellow}Nvidia${end} gpu in your system?" "nvidia"
     fi
@@ -253,12 +252,8 @@ if [[ "$bluetooth" =~ ^[Yy]$ ]]; then
     "$common_scripts/bluetooth.sh"
 fi
 
-if [[ "$shell" =~ ^[Yy]$ ]]; then
-    "$common_scripts/zsh.sh"
-else 
-    "$common_scripts/bash.sh"
-fi
 
+"$common_scripts/bash.sh"
 "$common_scripts/themes.sh"
 "$common_scripts/dotfiles.sh"
 
