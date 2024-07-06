@@ -253,7 +253,6 @@ if [[ "$bluetooth" =~ ^[Yy]$ ]]; then
 fi
 
 
-"$common_scripts/bash.sh"
 "$common_scripts/themes.sh"
 "$common_scripts/dotfiles.sh"
 
