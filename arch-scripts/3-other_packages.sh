@@ -78,7 +78,10 @@ other_packages=(
     python-pywal
     wget
     yad
+    gvfs
 )
+
+#Here, gvfs is for ftp
 
 printf "${action} - Now installing some necessary packages...\n" && sleep 1
 printf " \n"
