@@ -232,7 +232,7 @@ if [[ "$write_bangla" =~ ^[Yy]$ ]]; then
     "$common_scripts/write_bangla.sh"
 fi
 
-"$scripts_dir/7-browser.sh"
+#"$scripts_dir/7-browser.sh"
 
 if [[ "$vs_code" =~ ^[Yy]$ ]]; then
     "$scripts_dir/8-vs_code.sh"
