@@ -324,10 +324,9 @@ display_text_reboot() {
 EOF
 }
 
-#Setting up timezone and battery management
+#Setting up timezone
 sudo timedatectl set-ntp true
 sudo timedatectl set-timezone Asia/Dhaka
-sudo systemctl enable tlp.service
 
 
 # rebooting the system in 5 seconds
