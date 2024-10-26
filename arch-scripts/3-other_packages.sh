@@ -87,6 +87,7 @@ other_packages=(
     obs-studio
     htop
     neofetch
+    cheese
 )
 
 #Here, gvfs is for ftp
