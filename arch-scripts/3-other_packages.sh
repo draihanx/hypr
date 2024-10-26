@@ -87,6 +87,7 @@ other_packages=(
     obs
     htop
     neofetch
+    tlp
     
 )
 
