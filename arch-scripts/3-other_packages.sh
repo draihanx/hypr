@@ -87,8 +87,6 @@ other_packages=(
     obs
     htop
     neofetch
-    tlp
-    
 )
 
 #Here, gvfs is for ftp
