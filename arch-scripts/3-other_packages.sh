@@ -84,7 +84,7 @@ other_packages=(
     ranger
     libreoffice
     gimp
-    obs
+    obs-studio
     htop
     neofetch
 )
