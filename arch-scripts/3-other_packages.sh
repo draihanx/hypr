@@ -81,6 +81,13 @@ other_packages=(
     gvfs
     aria2
     chromium
+    ranger
+    libreoffice
+    gimp
+    obs
+    htop
+    neofetch
+    
 )
 
 #Here, gvfs is for ftp
