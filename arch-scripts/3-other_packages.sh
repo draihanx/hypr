@@ -79,6 +79,8 @@ other_packages=(
     wget
     yad
     gvfs
+    aria2
+    chromium
 )
 
 #Here, gvfs is for ftp
