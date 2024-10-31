@@ -86,7 +86,6 @@ other_packages=(
     gimp
     obs-studio
     htop
-    neofetch
 )
 
 #Here, gvfs is for ftp
